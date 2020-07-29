@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+  padding: 120px;
+  width: 25%;
+  background: #daada9;
+  color: white;
+}
+h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.main {
+  background: #565656;
+  padding: 15px;
+  position: relative;
+}
+form {
+  overflow: hidden;
+}
+input[type="submit"] {
+  padding: 15px 30px;
+  margin-bottom: 15px;
+  border: none;
+  float: right;
+  background: #565656;
+  color: white;
+}
+input[type="submit"]:hover {
+  color: #adf3ff;
+  cursor: pointer;
+}
+.man-img {
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+.man-img img {
+  width: 150px;
+  height: auto;
+  margin: 40px auto;
+}
+.man-status {
+  font-size: 14px;
+  text-align: center;
+}
+.history {
+  position: absolute;
+  right: -350px;
+  top: 0;
+  color: black;
+  width: 300px;
+}
